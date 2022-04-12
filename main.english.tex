@@ -1,0 +1,158 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Agustin}{Garcia}
+\title{Computer Engineer}                               % optional, remove / comment the line if not wanted
+\address{}{Nacimiento: 06/17/1995}{Montevideo, Uruguay}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(+598)~99~785~584}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{(011)~4219~2261}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{agusss.garcia19@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.github.com/agusss19}                         % optional, remove / comment the
+%line if not wanted
+               % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{fotoCarnet}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+\quote{Presentation}  % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+Proactive computer engineer, self-motivated, eager to grow professionally. Ready to face any challenge on engineering that comes out giving a creative and efficient answer to problems. Wide-ranging knowledge in Engineering of Software, methodologies of agile development, Mathematics and Electronics, acquired at school and career experience. Ready for continuous learning and working individually and in groups.
+
+\section{Education}
+\cventry{2013--2017}{Computer Engineer}{National University of La Plata (UNLP)}{La Plata}{\textit{University course developed together with the Computer Science Faculty and Engineering UNLP. Completed with an average mark of 8.88. Well-known as one of the best averages of the Academic year 2017-2018. Awarded the Joaquin V. González Prize}}{}
+
+\cventry{2020--2020}{React, Redux}{}{}{\textit{Online course carried out to get the essential tools of React and Redux libraries. }{\href{https://www.linkedin.com/posts/agusss19_redux-certificate-of-graduation-activity-6687055289507692544-I4oA}{Linkedin link}}}{}
+
+\cventry{2018--2019}{.NET}{}{}{\textit{Study carried out to get basic and advanced concepts related to Framework .NET MVC5 and .NET Core using C\#.}}{}
+
+\cventry{2018--2018}{Angular}{}{}{\textit{Online course carried out to know the tools that framework gives to satisfy different working needs.}}{}
+
+\cventry{2018--2018}{Blockchain}{}{}{\textit{Mini course carried out to develop a program using this cutting edge technology. The system is done using Golang language.}}{}
+
+\cventry{2017--2018}{OpenGL}{}{}{\textit{Study carried out to get the basic and advanced tools of the OpenGL technology using Java and C++.}}{}
+
+\cventry{2006-2010}{Ingles}{Oxford Institute}{La Plata}{\textit{Study carried out to understand and use the language.}}{}
+
+\cventry{2007--2012}{High School}{Colegio Nacional Rafaél Hernández}{La Plata}{\textit{Computer science orientation}}{}
+
+
+\section{Experience}
+\cventry{2020--actualidad}{Fullstack developer}{(.NET Core, React, Redux, NextJs) \href{https://uruit.com/}{UruIT}}{Montevideo}{}{Development of a system for SupremeGolf Company in the USA to sell hours to play golf. The system was built using React (Hooks), Redux and NextJs for the Frontend .NET Core (C\#) for the Backend and the Dapper ORM for the communication with the SQL Server database. The application is orientated towards microservices (CQRS), it uses the last cloud technologies of Azure and paradigms such as DDD and dependency injection. Some of the components used in the solution are AppServices, Queues, Topics, Functions and Redis cache. For the application testing we used Jest in the Frontend and XUnit in the Backend. The Deploy to the different environments was carried out using the Azure DevOps service in order to compile the solution, run the unit tests, integration tests and finally pack and copy the resulting files to the destination server. It was also necessary an active participation in the client’s requirements and in the definition of the corresponding tasks. Technical advice was provided to some particular business needs. The agile methodology was Scrum, including all the instances with the client: daily, grooming, planning, retrospective.}
+
+\cventry{2019--2019}{Fullstack developer}{(.NET Core, React, Redux) \href{https://www.novit.com.ar/}{Novit}}{CABA}{}{Development of a system for the City Parking Company in Colombia in a remote way from La Plata. The project business aim consisted in the handling of the parking quota for cars, motorbikes and bicycles of all the country. The system was built using React and Redux for the Frontend together with the PWA technology to simulate a mobile application and could be used even when there was no connection to Internet. It was required knowledge about .NET Core (C\#) for the backend and the Entity Framework ORM for the SQL Server database. Initially the architecture was in layers, afterwards changed to slices (CQRS and DDD).  For the application testing we used Jest in the Frontend and XUnit in the Backend. The Deploy to the environments was carried out using Docker containers in Azure. The agile methodology used was Scrum with Trello tools (and Power Ups). It was also necessary an active participation in the client’s requirements and in the definition of the corresponding tasks. Technical advice was provided to some particular business needs.}
+
+\cventry{2017--2019}{Desarrollador Fullstack}{(.NET Core, React, Redux) \href{https://www.cgp.gba.gov.ar/}{General Accounting Office of the Province of Buenos Aires}}{La Plata}{}{Creation of internal applications to automate activities and processes that before were carried out manually. Each application was given a solution according to the problem presented. The systems were built using React and Redux for the Frontend,.NET Core (C\#) for the Backend and the NHibernate ORM for the communication with Oracle and SQL Server database.
+For the development of these systems, large-range knowledge on software architecture was required (layers, vertical slices, CQQRS, DDD, dependency injection). It was used Jest in the Frontend and XUnit in the Backend for the testing. The deploy of the different environments was carried out using the Jenkins tool. It was necessary to create a Powershell script capable of creating the site in IIS, compiling the solution, executing the unit tests, the integration tests and finally packing and copying the resulting files to the destination server (Windows Server). This is the way in which the continuous integration paradigm/deploy was carried out. The development methodology was Scrum using tools like Trello, Slack.}
+
+\cventry{2018--2019}{Graduate professor}{(Java) \href{https://www.info.unlp.edu.ar/}{National University of La Plata}}{La Plata}{}{Diploma assistant of the subjects Programming 3 (Java) and Language Workshop 2 (Java) taught in the Computer Science Faculty of the UNLP. Both subjects consist in learning this language together with the most common design patterns used in the business world.}
+
+\cventry{2017--2018}{Software Developer}{(Java, C++) \href{https://www.linti.unlp.edu.ar/}{New computer technologies research Laboratory}}{La Plata}{}{Development of the research system “Creation of devices based on sensors and specific software to improve the training of athletes”. The project was approved in the call for “Applications development and innovation projects” at the Computer Science Faculty in 2017. The system consists in a component that controls the microcontrollers called “Terminal” and a series of peripheral devices called “Turtles”. The first one runs in Android mobiles and it was written using Java. The peripherals on the other hand were programmed using C++ and the SDK of ESP8266. The aim was to sense the reaction capacity of the athletes who tried the system. Then, the information was centralized in a cloud database. The communication between the different system components was carried out through its own binary protocol implemented over WiFi (UDP and TCP).}
+
+
+\section{Projects}
+\cventry{2020}{GeminiForm}{Web}{React}{}{Personal development of a software that identifies the main problems when you have to work with React forms and provides a clean, friendly and simple API to use.
+Among the main characteristics that offers this library is built in debouncing and asynchronous validations. To develop this, it was necessary to have advanced knowledge on react and on functional programming (Hooks). The project is at release candidate stage but it was shown to several people from the React community to get feedback.}
+
+\cventry{2020}{Incomes}{Web}{React}{}{Personal development of a software that allows you to record your entry and exit movements grouping them by categories. The information is kept in Google Firebase so it can be consulted in different ways using a series of filters provided.
+\href{https://github.com/Agusss19/react-ingresos}{https://github.com/Agusss19/react-ingresos}}
+
+\cventry{2018}{Spotlight}{Microcontrollers}{Golang}{}{Software development that emulates the behaviour of a microcontroller that can receive particular commands through a binary protocol via Wi Fi and emits the different output values through the console. Both, the emulator and the protocol were written using Golang. \href{https://github.com/Agusss19/go-qsy-terminal}{https://github.com/Agusss19/go-qsy-terminal}}
+
+\cventry{2017}{Luminous Poster}{Microcontrollers}{C++}{}{Development of a LEDs board, controlled through Wi Fi by an ESP8266 controller. Knowledge of C++, network communication protocols, TLS certificates, concurrency and electronics were required. \href{https://github.com/TPI-2017/esp}{https://github.com/TPI-2017/esp}}
+
+\cventry{2017}{Intelligent Traffic Lights}{Microcontrollers}{C++}{}{Creation of a system of intelligent traffic lights that allows the control of traffic jams according to the presence of cars found in each intersection. This task was carried out using Arduino and FreeRTOS technology. \href{https://github.com/real-time-unlp/traffic-light-controller}{https://github.com/real-time-unlp/traffic-light-controller}}
+
+\section{Languages}
+\cvitemwithcomment{Native}{Spanish}{}
+\cvitemwithcomment{Intermediate Level}{English}{}
+
+\section{Technical Knowledge}
+\cvdoubleitem
+{
+	\cvlistitem{.NET (C\#)}
+	\cvlistitem{Git}
+	\cvlistitem{Java}
+	\cvlistitem{Golang}
+}
+{
+}
+{
+	\cvlistitem{React}
+	\cvlistitem{Angular}
+	\cvlistitem{Javascript}
+	\cvlistitem{Typescript}
+}
+{
+    \cvlistitem{Redux}
+	\cvlistitem{Latex}
+	\cvlistitem{C++}
+	\cvlistitem{Android}
+}
+\section{Working Applications}
+\cvdoubleitem
+{
+	\cvlistitem{Code}
+	\cvlistitem{VS}
+	\cvlistitem{IntelliJ}
+	\cvlistitem{Eclipse}
+}
+{
+}
+{
+    \cvlistitem{Jira}
+	\cvlistitem{Jenkins}
+	\cvlistitem{Slack} 
+	\cvlistitem{Trello}
+}
+{
+	\cvlistitem{AzureDataStudio}
+	\cvlistitem{SQLManagment}
+	\cvlistitem{React Dev Tools}
+	\cvlistitem{OracleSQL} 
+}
+
+\section{Attendance and events}
+\cvlistitem{Assistance at the Argentinian Symposium of Embedded Systems (SASE) 2017- Tutorials.}
+\cvlistitem{Special mention as one of the best averages of the 2017-2018 school year in the Joaquin V. González Awards carried out  by La Plata Town Hall.}
+
+\end{document}
+
+
+%% end of file `template.tex'.
